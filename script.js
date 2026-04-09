@@ -29,4 +29,8 @@ const ruotaLiscia = {
     colore: 'grafite'
 };
 
-console.log(gwendalin);
+// sparo le bici in scuderia
+scuderiaBici.push(gwendalin,catapult4,mazzoRazzo,ruotaLiscia);
+// guardo se ci sono
+console.log(scuderiaBici);
+
