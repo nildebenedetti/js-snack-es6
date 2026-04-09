@@ -3,35 +3,35 @@
 // Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso.
 // Stampare a schermo la bici con peso minore.
 
-const scuderiaBici = [];
+const scuderiaBici = [
 
-const gwendalin = {
+{
     nome: 'gwendalin',
     peso: '11',
     colore: 'azzurro cielo'
-};
+},
 
-const catapult4 = {
+{
     nome: 'catapult4',
     peso: '9',
     colore: 'verde lime'
-};
+},
 
-const mazzoRazzo = {
+{
     nome: 'mazzoRazzo',
     peso: '7',
     colore: 'rosso fiamma'
-};
+},
 
-const ruotaLiscia = {
+{
     nome: 'ruotaLiscia',
     peso: '10',
     colore: 'grafite'
-};
+}
+];
 
-// sparo le bici in scuderia
-scuderiaBici.push(gwendalin,catapult4,mazzoRazzo,ruotaLiscia);
-// guardo se ci sono
+
+// guardo se ci sono le bici in scuderia 
 console.log(scuderiaBici);
 
 // stampare bici con peso minore
