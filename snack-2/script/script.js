@@ -87,5 +87,26 @@ for (i = 0; i < campionatoFantastico.length; i++) {
 
 }
 
+// per pushare nel nuovo array, creo un nuovo array
+// faccio un ciclo for
+// che mi prende dal primo gli oggetti con index
+// rimuove la chiave dei punti
+// poi pusha
+
+classificaPicchiatiMale = [];
+
+for (i = 0; i < campionatoFantastico.length; i++) {
+    const currentSquadra = campionatoFantastico[i];
+    delete currentSquadra.puntiSegnati;
+    classificaPicchiatiMale.push(currentSquadra);
+
+    
+}
+
+// imposto il check per vedere come procede
+    console.log('Ecco quanto si sono picchiati i nostri giocatori in questa edizione!');
+    console.log(classificaPicchiatiMale);
+    
+
 
 
