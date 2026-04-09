@@ -5,3 +5,8 @@
 
 const scuderiaBici = [ /* gwendalin, catapult4, mazzoRazzo, ruotaLiscia*/];
 
+const gwendalin {
+    nome: 'gwendalin',
+    peso: '11 kg',
+    colore: 'azzurro cielo'
+}
