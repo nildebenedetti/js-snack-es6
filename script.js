@@ -3,10 +3,30 @@
 // Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso.
 // Stampare a schermo la bici con peso minore.
 
-const scuderiaBici = [ /* gwendalin, catapult4, mazzoRazzo, ruotaLiscia*/];
+const scuderiaBici = [];
 
-const gwendalin {
+const gwendalin = {
     nome: 'gwendalin',
     peso: '11 kg',
     colore: 'azzurro cielo'
-}
+};
+
+const catapult4 = {
+    nome: 'catapult4',
+    peso: '9 kg',
+    colore: 'verde lime'
+};
+
+const mazzoRazzo = {
+    nome: 'mazzoRazzo',
+    peso: '7 kg',
+    colore: 'rosso fiamma'
+};
+
+const ruotaLiscia = {
+    nome: 'ruotaLiscia',
+    peso: '10 kg',
+    colore: 'grafite'
+};
+
+console.log(gwendalin);
