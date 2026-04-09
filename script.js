@@ -40,7 +40,7 @@ console.log(scuderiaBici);
 let minObject = scuderiaBici[0];
 
 for (const bici of scuderiaBici) {
-    if (bici.peso < minObject.peso) {
+    if (Number(bici.peso) < Number(minObject.peso)) {
         minObject = bici;
     }
 }
