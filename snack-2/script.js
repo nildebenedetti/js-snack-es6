@@ -6,75 +6,77 @@
 // Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
 
 // creo array vuoto
-const campionatoFantastico = [];
+const campionatoFantastico = [
 
-const lupiLucy = {
+{
     nome: 'lupi lucy',
     puntiSegnati: '0',
     falliSubiti: '0'
-};
+},
 
-const serpentiBianchi = {
+{
     nome: 'serpenti bianchi',
     puntiSegnati: '0',
     falliSubiti: '0'
-};
+},
 
-const impavidiCantastorie = {
+{
     nome: 'impavidi cantastorie',
     puntiSegnati: '0',
     falliSubiti: '0'
-};
+},
 
-const clavaBanana = {
+{
     nome: 'clava banana',
     puntiSegnati: 0,
     falliSubiti: 0
-};
+},
 
-const bradipiCorridori = {
+{
     nome: 'bradipi corridori',
     puntiSegnati: 0,
     falliSubiti: 0
-};
+},
 
-const fiammeDiGorgonzola = {
+{
     nome: 'fiamme di gorgonzola',
     puntiSegnati: 0,
     falliSubiti: 0
-};
+},
 
-const talpeSonnambule = {
+{
     nome: 'talpe sonnambule',
     puntiSegnati: 0,
     falliSubiti: 0
-};
+},
 
-const raneStroboscopiche = {
+{
     nome: 'rane stroboscopiche',
     puntiSegnati: 0,
     falliSubiti: 0
-};
+},
 
-const cactusAbbracciabili = {
+{
     nome: 'cactus abbracciabili',
     puntiSegnati: 0,
     falliSubiti: 0
-};
+},
 
-const pinguiniPirotecnici = {
+{
     nome: 'pinguini pirotecnici',
     puntiSegnati: 0,
     falliSubiti: 0
-};
+}
 
-campionatoFantastico.push(lupiLucy,serpentiBianchi,impavidiCantastorie,clavaBanana,bradipiCorridori,fiammeDiGorgonzola,talpeSonnambule,raneStroboscopiche,cactusAbbracciabili,pinguiniPirotecnici)
+];
+
 console.log(campionatoFantastico);
 
 // creiamo un ciclo for, in cui andiamo a generare un numero random
 
 for (i = 0; i < campionatoFantastico.length; i++) {
     const currentSquadra = campionatoFantastico[i];
-    
+
 
 }
+
