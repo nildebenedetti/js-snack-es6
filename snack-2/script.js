@@ -9,8 +9,64 @@
 const campionatoFantastico = [];
 
 const lupiLucy = {
-    nome: 'lupiLucy',
+    nome: 'lupi lucy',
     puntiSegnati: '0',
     falliSubiti: '0'
-}
+};
 
+const serpentiBianchi = {
+    nome: 'serpenti bianchi',
+    puntiSegnati: '0',
+    falliSubiti: '0'
+};
+
+const impavidiCantastorie = {
+    nome: 'impavidi cantastorie',
+    puntiSegnati: '0',
+    falliSubiti: '0'
+};
+
+const clavaBanana = {
+    nome: 'clava banana',
+    puntiSegnati: 0,
+    falliSubiti: 0
+};
+
+const bradipiCorridori = {
+    nome: 'bradipi corridori',
+    puntiSegnati: 0,
+    falliSubiti: 0
+};
+
+const fiammeDiGorgonzola = {
+    nome: 'fiamme di gorgonzola',
+    puntiSegnati: 0,
+    falliSubiti: 0
+};
+
+const talpeSonnambule = {
+    nome: 'talpe sonnambule',
+    puntiSegnati: 0,
+    falliSubiti: 0
+};
+
+const raneStroboscopiche = {
+    nome: 'rane stroboscopiche',
+    puntiSegnati: 0,
+    falliSubiti: 0
+};
+
+const cactusAbbracciabili = {
+    nome: 'cactus abbracciabili',
+    puntiSegnati: 0,
+    falliSubiti: 0
+};
+
+const pinguiniPirotecnici = {
+    nome: 'pinguini pirotecnici',
+    puntiSegnati: 0,
+    falliSubiti: 0
+};
+
+campionatoFantastico.push(lupiLucy,serpentiBianchi,impavidiCantastorie,clavaBanana,bradipiCorridori,fiammeDiGorgonzola,talpeSonnambule,raneStroboscopiche,cactusAbbracciabili,pinguiniPirotecnici)
+console.log(campionatoFantastico);
