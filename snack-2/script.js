@@ -8,3 +8,9 @@
 // creo array vuoto
 const campionatoFantastico = [];
 
+const lupiLucy = {
+    nome: 'lupiLucy',
+    puntiSegnati: '0',
+    falliSubiti: '0'
+}
+
