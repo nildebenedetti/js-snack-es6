@@ -10,8 +10,8 @@ const campionatoFantastico = [
 
 {
     nome: 'lupi lucy',
-    puntiSegnati: '0',
-    falliSubiti: '0'
+    puntiSegnati: 0,
+    falliSubiti: 0
 },
 
 {
@@ -22,8 +22,8 @@ const campionatoFantastico = [
 
 {
     nome: 'impavidi cantastorie',
-    puntiSegnati: '0',
-    falliSubiti: '0'
+    puntiSegnati: 0,
+    falliSubiti: 0
 },
 
 {
@@ -76,7 +76,12 @@ console.log(campionatoFantastico);
 
 for (i = 0; i < campionatoFantastico.length; i++) {
     const currentSquadra = campionatoFantastico[i];
-
+    const numFalli = myRandom(0, 50);
+    // imposto il check per vedere come procede
+    console.log( `squadra: ${currentSquadra.nome}, punti: ${currentSquadra.puntiSegnati}, falli subiti: ${currentSquadra.falliSubiti}`);
+    
 
 }
+
+
 
