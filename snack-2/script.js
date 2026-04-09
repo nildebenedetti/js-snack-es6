@@ -70,3 +70,11 @@ const pinguiniPirotecnici = {
 
 campionatoFantastico.push(lupiLucy,serpentiBianchi,impavidiCantastorie,clavaBanana,bradipiCorridori,fiammeDiGorgonzola,talpeSonnambule,raneStroboscopiche,cactusAbbracciabili,pinguiniPirotecnici)
 console.log(campionatoFantastico);
+
+// creiamo un ciclo for, in cui andiamo a generare un numero random
+
+for (i = 0; i < campionatoFantastico.length; i++) {
+    const currentSquadra = campionatoFantastico[i];
+    
+
+}
