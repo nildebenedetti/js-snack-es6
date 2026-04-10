@@ -16,8 +16,8 @@ const campionatoFantastico = [
 
 {
     nome: 'serpenti bianchi',
-    puntiSegnati: '0',
-    falliSubiti: '0'
+    puntiSegnati: 0,
+    falliSubiti: 0
 },
 
 {
